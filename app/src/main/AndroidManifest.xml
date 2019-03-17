@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dream.cs123.cs_123_dream">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"> </uses-permission>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <application
+        android:name=".DatabaseInit"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+        <activity android:name=".EmergencyModeMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpecificEmergency"
+            android:parentActivityName=".EmergencyModeMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EmergencyModeMain" />
+        </activity>
+        <activity android:name=".BrowseMode" />
+        <activity
+            android:name=".VerySpecificEmergency"
+            android:parentActivityName=".BrowseMode">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseMode" />
+        </activity>
+        <activity android:name=".ContactFullView"></activity>
+        <activity
+            android:name=".AddContact"
+            android:parentActivityName=".ContactFullView">
+            <meta-data
+                android:name=".android.support.PARENT_ACTIVITY"
+                android:value=".ContactFullView"/>
+        </activity>
+        <activity
+            android:name=".ContactEdit"
+            android:parentActivityName=".ContactFullView">
+            <meta-data
+                android:name=".android.support.PARENT_ACTIVITY"
+                android:value=".ContactFullView"/>
+        </activity>
+        <activity
+            android:name=".DisplayInfoEmergency"
+            android:parentActivityName=".SpecificEmergency">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpecificEmergency" />
+        </activity>
+        <activity
+            android:name=".DisplayInfoBrowse"
+            android:parentActivityName=".VerySpecificEmergency">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VerySpecificEmergency" />
+        </activity>
+        <activity
+            android:name=".ContactLookEmergency"
+            android:parentActivityName=".DisplayInfoEmergency">
+            <meta-data
+                android:name=".android.support.PARENT_ACTIVITY"
+                android:value=".DisplayInfoEmergency"/>
+        </activity>
+        <activity android:name=".ViewContact"></activity>
+</application>
+
+</manifest>

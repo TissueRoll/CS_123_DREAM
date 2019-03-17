@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<external-files-path name="my_images" path="my_images" />-->
+    <external-path
+        name="DREAM"
+        path="Android/data/dream.cs123.cs_123_dream/files/Pictures" />
+</paths>

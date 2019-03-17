@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="white">#ffffff</color>
+    <color name="claret">#751935</color>
+    <color name="bdoruby">#8b1e3f</color>
+    <color name="afwhite">#F2F2F2</color>
+    <color name="steelteal">#599191</color>
+    <color name="greensheen">#70afaf</color>
+</resources>

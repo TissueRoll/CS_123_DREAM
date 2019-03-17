@@ -1,0 +1,393 @@
+<resources>
+    <!-- START: names for buttons -->
+    <string name="app_name">CS_123_DREAM</string>
+    <string name="emergency_mode">Emergency Mode</string>
+    <string name="browse_mode">Browse Mode</string>
+    <string name="police">Police Emergency</string>
+    <string name="health">Health Emergency</string>
+    <string name="vehicle">Vehicular Emergency</string>
+    <string name="contacts">Contacts</string>
+    <string name="phone_number">Contact number</string>
+    <string name="add_emergency_contact">Add Emergency Contact</string>
+    <string name="default_text_phone">Phone Number</string>
+    <string name="default_text_name">Enter Contact Name</string>
+    <string name="default_text_desc">Enter Description</string>
+    <string name="question_screen">What is the type of emergency that you have?</string>
+    <string name="spec_question_screen">What specific emergency do you have?</string>
+    <string name="browse_question_screen">What emergency do you want to browse?</string>
+    <string name="browse_spec_question_screen">What specific emergency do you want to know more about?</string>
+    <string name="manage_contacts">Manage Contacts</string>
+    <string name="add_button">Add</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="back">Back</string>
+    <string name="switch_mode">Switch Mode</string>
+    <string name="notify_hotline">Notify Hotline</string>
+    <string name="notfiy_contact">Notify Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="edit_contact_information">Edit Contact</string>
+    <string name="enter_phone_no">Contact Number (ex. 9171234567)</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="loc_perm">Needs Location Permission!</string>
+    <string name="settings">Settings</string>
+    <string name="phone_hint">Ex. +639171234567</string>
+    <!-- END: names for buttons -->
+    <!-- START: Dummy Text -->
+    <string name="lorem_name">Lorem Ipsum</string>
+    <string name="lorem_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa. Facilisi cras fermentum odio eu feugiat. Tincidunt tortor aliquam nulla facilisi cras.</string>
+    <string name="lorem_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa. Facilisi cras fermentum odio eu feugiat. Tincidunt tortor aliquam nulla facilisi cras. Tincidunt vitae semper quis lectus nulla. Tellus molestie nunc non blandit. Feugiat in fermentum posuere urna. Elit at imperdiet dui accumsan sit amet. Sed velit dignissim sodales ut eu sem integer. Elementum tempus egestas sed sed risus pretium quam.</string>
+    <!-- END: Dummy Text -->
+    <string name="emergencyE_demo_00"> Police Checkpoint </string>
+    <string name="emergencyE_demo_01">
+        1. Slow down your vehicle as you approach the checkpoint.
+        \n\n2. Dim your headlights.
+        \n\n3. Switch on the lights inside your car.
+        \n\n4. Roll down windows. Do not step out of your vehicle.
+        \n\n5. Make sure your doors are locked.
+        \n\n6. Prepare to show driver’s license and car registration.
+        \n\n7. Answer routine questions courteously.
+        \n\n8. Only visual search is allowed. You are not obliged to open your glove compartment/any other items in the vehicle.
+        \n\n9. Report any violations to the police hotline.
+    </string>
+    <string name="emergencyB_demo_02">
+        1. <u>Slow down your vehicle as you approach the checkpoint.</u>
+        \n\n\t\tOftentimes, police checkpoints are directed at single-rider motorcyclists. Police checkpoints are an effort by the PNP to prevent "riding-in-tandem". However, there are still times when police hail over cars. As you approach the checkpoint, make an assessment of the checkpoint.
+        \n\n\t\tCheckpoints are well-lighted. Police authorities must be in proper uniform with a visible nameplate. Checkpoints are usually composed of an 8-man team, with a team leader who has the rank of Inspector (at minimum). There is a marked police vehicle present at the checkpoint. There is an official signage declaring the area as a checkpoint and the police department assigned to the checkpoint.
+        \n\n2. <u>Dim your headlights, switch on the lights inside your car, roll down windows, make sure your doors are locked.</u>
+        \n\n\t\tThe authorities at checkpoints are only permitted to do a visual search of your vehicle. They will look through using a flashlight. They are not permitted to open the car door.
+        \n\n3. <u>You are not obliged to open your glove compartment/any other items in the vehicle.</u>
+        \n\n\t\tYou may refuse to open and show the contents of your belongings like your bag. This kind of search requires them to have a probable cause.
+        \n\n4. <u>Do not step out of your vehicle.</u>
+        \n\n\t\tDo not submit to a body search.
+        \n\n5. <u>Prepare to show driver’s license and car registration.</u>
+        \n\n\t\tOfficers may require that you show them your official documents for inspection.
+        \n\n6. <u>Answer routine questions courteously.</u>
+        \n\n\t\tBe firm. Be aware of your rights and assert them. Have presence of mind at all times. Officers are only allowed to detain you for a brief amount of time.
+        \n\n7. <u>Report any violations to the police hotline.</u>
+        \n\n\t\tDial 722-0650 local 3453/3473 for the PNP complaint hotline.
+    </string>
+
+    <!-- START: Police Emergencies -->
+    <string name="police_emergency_title_00"> Police Checkpoint </string>
+    <string name="police_emergency_E_00">
+        1. Slow down your vehicle as you approach the checkpoint.
+        \n\n2. Dim your headlights.
+        \n\n3. Switch on the lights inside your car.
+        \n\n4. Roll down windows. Do not step out of your vehicle.
+        \n\n5. Make sure your doors are locked.
+        \n\n6. Prepare to show driver’s license and car registration.
+        \n\n7. Answer routine questions courteously.
+        \n\n8. Only visual search is allowed. You are not obliged to open your glove compartment/any other items in the vehicle.
+        \n\n9. Report any violations to the police hotline.
+    </string>
+    <string name="police_emergency_B_00">
+        1. <u>Slow down your vehicle as you approach the checkpoint.</u>
+        \n\n\t\tOftentimes, police checkpoints are directed at single-rider motorcyclists. Police checkpoints are an effort by the PNP to prevent "riding-in-tandem". However, there are still times when police hail over cars. As you approach the checkpoint, make an assessment of the checkpoint.
+        \n\n\t\tCheckpoints are well-lighted. Police authorities must be in proper uniform with a visible nameplate. Checkpoints are usually composed of an 8-man team, with a team leader who has the rank of Inspector (at minimum). There is a marked police vehicle present at the checkpoint. There is an official signage declaring the area as a checkpoint and the police department assigned to the checkpoint.
+        \n\n2. <u>Dim your headlights, switch on the lights inside your car, roll down windows, make sure your doors are locked.</u>
+        \n\n\t\tThe authorities at checkpoints are only permitted to do a visual search of your vehicle. They will look through using a flashlight. They are not permitted to open the car door.
+        \n\n3. <u>You are not obliged to open your glove compartment/any other items in the vehicle.</u>
+        \n\n\t\tYou may refuse to open and show the contents of your belongings like your bag. This kind of search requires them to have a probable cause.
+        \n\n4. <u>Do not step out of your vehicle.</u>
+        \n\n\t\tDo not submit to a body search.
+        \n\n5. <u>Prepare to show driver’s license and car registration.</u>
+        \n\n\t\tOfficers may require that you show them your official documents for inspection.
+        \n\n6. <u>Answer routine questions courteously.</u>
+        \n\n\t\tBe firm. Be aware of your rights and assert them. Have presence of mind at all times. Officers are only allowed to detain you for a brief amount of time.
+        \n\n7. <u>Report any violations to the police hotline.</u>
+        \n\n\t\tDial 722-0650 local 3453/3473 for the PNP complaint hotline.
+    </string>
+    <!-- END: Police Emergencies -->
+
+    <!-- START: Health Emergencies -->
+    <string name="health_emergency_title_00"> Bleeding </string>
+    <string name="health_emergency_E_00">
+        1. Apply direct pressure on the cut or wound with a clean cloth, tissue, or piece of gauze until bleeding stops.
+        \n\n2. Clean wound with soap and warm water. Rinse the soap out of the wound gently.
+        \n\n3. Protect the wound with an antibiotic cream and cover it with a sterile bandage.
+        \n\n4. If unsure of the situation, call for medical aid.
+    </string>
+    <string name="health_emergency_B_00">
+        1. Stop Bleeding
+        \n\n\t\tApply direct pressure on the cut or wound with a clean cloth, tissue, or piece of gauze until bleeding stops.
+        \n\n\t\tIf blood soaks through the material, don’t remove it. Put more cloth or gauze on top of it and continue to apply pressure.
+        \n\n\t\tIf the wound is on the arm or leg, raise limb above the heart, if possible, to help slow bleeding.
+        \n\n\t\tWash your hands again after giving first aid and before cleaning and dressing the wound.
+        \n\n\t\tDo not apply a tourniquet unless the bleeding is severe and not stopped with direct pressure.
+        \n\n2. Clean Cut or Wound
+        \n\n\t\tGently clean with soap and warm water. Try to rinse soap out of wound to prevent irritation.
+        \n\n\t\tDon’t use hydrogen peroxide or iodine, which can damage tissue.
+        \n\n3. Protect the Wound
+        \n\n\t\tApply antibiotic cream to reduce risk of infection and cover with a sterile bandage.
+        \n\n\t\tChange the bandage daily to keep the wound clean and dry.
+        \n\n4. When to Call a Doctor
+        \n\n\t\tThe wound is deep or the edges are jagged or gaping open.
+        \n\n\t\tThe wound is on the person’s face.
+        \n\n\t\tThe wound has dirt or debris that won’t come out.
+        \n\n\t\tThe wound shows signs of infection, such as redness, tenderness, or a thick discharge, or if the person runs a fever.
+        \n\n\t\tThe area around the wound feels numb.
+        \n\n\t\tRed streaks form around the wound.
+        \n\n\t\tThe wound is a result of an animal or human bite.
+        \n\n\t\tThe person has a puncture wound or deep cut and hasn’t had a tetanus shot in the past five years, or anyone who hasn’t had a tetanus shot in the past 10 years.
+    </string>
+
+    <string name="health_emergency_title_01"> Breathing Difficulties </string>
+    <string name="health_emergency_E_01">
+        1. Call 911 or your local emergency number
+        \n\n2. Check the person\'s airway, breathing, and pulse. If necessary, begin CPR.
+        \n\n3. Loosen any tight clothing.
+        \n\n4. Help the person use any prescribed medicine (an asthma inhaler or home oxygen).
+        \n\n5. If there are open wounds in the neck or chest, they must be closed immediately, especially if air bubbles appear in the wound. Bandage such wounds at once.
+    </string>
+    <string name="health_emergency_B_01">
+        1. If someone is having breathing difficulty, call 911 or your local emergency number right away, then:
+        \n\n2. Check the person\'s airway, breathing, and pulse. If necessary, begin CPR.
+        \n\n3. Loosen any tight clothing.
+        \n\n4. Help the person use any prescribed medicine (an asthma inhaler or home oxygen).
+        \n\n5. Continue to monitor the person\'s breathing and pulse until medical help arrives. DO NOT assume that the person\'s condition is improving if you can no longer hear abnormal breath sounds, such as wheezing.
+        \n\n6. If there are open wounds in the neck or chest, they must be closed immediately, especially if air bubbles appear in the wound. Bandage such wounds at once.
+        \n\n7. A "sucking" chest wound allows air to enter the person\'s chest cavity with each breath. This can cause a collapsed lung. Bandage the wound with plastic wrap, a plastic bag, or gauze pads covered with petroleum jelly, sealing it except for one corner. This allows trapped air to escape from the chest, but it prevents air from entering the chest through the wound.
+    </string>
+
+    <string name="health_emergency_title_02"> CPR </string>
+    <string name="health_emergency_E_02">
+        1. You\'re next move depends on your experience
+		\n\n\t\t Untrained. If you\'re not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of 100 to 120 a minute until paramedics arrive
+		\n\n\t\t Trained and ready to go. If you\'re well-trained and confident in your ability, check to see if there is a pulse and breathing. If there is no breathing or a pulse within 10 seconds, begin chest compressions. Start CPR with 30 chest compressions before giving two rescue breaths.
+		\n\n\t\t Trained but rusty. If you\'ve previously received CPR training but you\'re not confident in your abilities, then just do chest compressions at a rate of 100 to 120 a minute.
+        \n\n\t\t ACTUAL CPR STEPS
+		\n\n2. Place your hands, one on top of the other, in the middle of the chest.
+        \n\n3. Push hard, push fast. Use your body weight to help you administer compressions that are at least 2 inches deep and delivered at a rate of at least 100 compressions per minute.
+        \n\n4. Deliver rescue breaths.
+        \n\n5. With the person\'s head tilted back slightly and the chin lifted, pinch the nose shut and place your mouth over the person\'s mouth to make a complete seal.
+        \n\n6. Blow into the person\'s mouth to make the chest rise.
+        \n\n7. Deliver two rescue breaths, then continue compressions.
+        \n\n8. Continue CPR steps. Keep performing cycles of chest compressions and breathing until the person exhibits signs of life, such as breathing, an AED becomes available, or EMS or a trained medical responder arrives on scene.
+    </string>
+    <string name="health_emergency_B_02">
+        1. Only do what you\'re trained to do.
+		\n\n\t\t Untrained. If you\'re not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of 100 to 120 a minute until paramedics arrive (described in more detail below). You don\'t need to try rescue breathing.
+		\n\n\t\t Trained and ready to go. If you\'re well-trained and confident in your ability, check to see if there is a pulse and breathing. If there is no breathing or a pulse within 10 seconds, begin chest compressions. Start CPR with 30 chest compressions before giving two rescue breaths.
+		\n\n\t\t Trained but rusty. If you\'ve previously received CPR training but you\'re not confident in your abilities, then just do chest compressions at a rate of 100 to 120 a minute. (Details described below.)
+        \n\n2. Place your hands, one on top of the other, in the middle of the chest.
+        \n\n3. Use your body weight to help you administer compressions that are at least 2 inches deep and delivered at a rate of at least 100 compressions per minute.
+        \n\n4. Note: If the chest does not rise with the initial rescue breath, re-tilt the head before delivering the second breath. If the chest doesn\'t rise with the second breath, the person may be choking. After each subsequent set of 30 chest compressions, and before attempting breaths, look for an object and, if seen, remove it.
+        \n\n5. Deliver rescue breaths.
+        \n\n6. With the person\'s head tilted back slightly and the chin lifted, pinch the nose shut and place your mouth over the person\'s mouth to make a complete seal.
+        \n\n7. Blow into the person\'s mouth to make the chest rise.
+        \n\n\t\t Note: If the chest does not rise with the initial rescue breath, re-tilt the head before delivering the second breath. If the chest doesn\'t rise with the second breath, the person may be choking. After each subsequent set of 30 chest compressions, and before attempting breaths, look for an object and, if seen, remove it.
+		\n\n8. Deliver two rescue breaths, then continue compressions.
+        \n\n9. Continue CPR steps. Keep performing cycles of chest compressions and breathing until the person exhibits signs of life, such as breathing, an AED becomes available, or EMS or a trained medical responder arrives on scene.
+        \n\n\t\t Note: End the cycles if the scene becomes unsafe or you cannot continue performing CPR due to exhaustion.
+    </string>
+
+    <string name="health_emergency_title_03"> Seizures / Epileptic Fit </string>
+    <string name="health_emergency_E_03">
+        1. There’s not much you can do for the person having a seizure. You can only wait until it’s over.
+        \n\n2. Prevent injury by moving nearby objects out of the way
+        \n\n3. Always stay with the person until the seizure is over
+        \n\n4. Pay attention to the length of the seizure
+        \n\n5. Stay calm; most seizures only last a few minutes
+        \n\n6. Prevent injury by moving nearby objects out of the way
+        \n\n7. Make the person as comfortable as possible
+        \n\n8. Keep onlookers away
+        \n\n9. Do not forcibly hold the person down
+        \n\n10. Do not put anything in the person\'s mouth!
+        \n\n11. Make sure their breathing is okay
+        \n\n12. If the person is lying down, turn them on their side, with their mouth pointing to the ground.
+        \n\n13. Do not give water, pills, or food by mouth unless the person is fully alert
+        \n\n14. Call for emergency medical help
+        \n\n15. Be sensitive and supportive, and ask others to do the same
+    </string>
+    <string name="health_emergency_B_03">
+        1. Always Stay With the Person Until the Seizure Is Over
+        \n\n\t\tSeizures can be unpredictable and it’s hard to tell how long they may last or what will occur during them. Some may start with minor symptoms, but lead to a loss of consciousness or fall. Other seizures may be brief and end in seconds.
+        \n\n\t\tInjury can occur during or after a seizure, requiring help from other people.
+        \n\n2. Pay attention to the length of the seizure
+        \n\n\t\tLook at your watch and time the seizure – from beginning to the end of the active seizure.
+        \n\n\t\tTime how long it takes for the person to recover and return to their usual activity.
+        \n\n\t\tIf the active seizure lasts longer than the person’s typical events, call for help.
+        \n\n\t\tKnow when to give \'as needed\' or rescue treatments, if prescribed, and when to call for emergency help.
+        \n\n3. Stay calm; most seizures only last a few minutes
+        \n\n\t\tA person’s response to seizures can affect how other people act. If the first person remains calm, it will help others stay calm too.
+        \n\n\t\tTalk calmly and reassuringly to the person during and after the seizure – it will help as they recover from the seizure.
+        \n\n4. Prevent injury by moving nearby objects out of the way
+        \n\n\t\tRemove sharp objects.
+        \n\n\t\tIf you can\’t move surrounding objects or a person is wandering or confused, help steer them clear of dangerous situations, for example away from traffic, train or subway platforms, heights, or sharp objects.
+        \n\n5. Make the person as comfortable as possible
+        \n\n\t\tHelp them sit down in a safe place.
+        \n\n\t\tIf they are at risk of falling, call for help and lay them down on the floor.
+        \n\n\t\tSupport the person\’s head to prevent it from hitting the floor.
+        \n\n6. Keep onlookers away
+        \n\n\t\tOnce the situation is under control, encourage people to step back and give the person some room. Waking up to a crowd can be embarrassing and confusing for a person after a seizure.
+        \n\n\t\tAsk someone to stay nearby in case further help is needed.
+        \n\n7. Do not forcibly hold the person down
+        \n\n\t\tTrying to stop movements or forcibly holding a person down doesn\’t stop a seizure. Restraining a person can lead to injuries and make the person more confused, agitated or aggressive. People don\’t fight on purpose during a seizure. Yet if they are restrained when they are confused, they may respond aggressively.
+        \n\n\t\tIf a person tries to walk around, let them walk in a safe, enclosed area if possible.
+        \n\n8. Do not put anything in the person\'s mouth!
+        \n\n\t\tJaw and face muscles may tighten during a seizure, causing the person to bite down. If this happens when something is in the mouth, the person may break and swallow the object or break their teeth!
+        \n\n\t\tDon’t worry - a person can’t swallow their tongue during a seizure.
+        \n\n9. Make sure their breathing is okay
+        \n\n\t\tIf the person is lying down, turn them on their side, with their mouth pointing to the ground. This prevents saliva from blocking their airway and helps the person breathe more easily.
+        \n\n\t\tDuring a convulsive or tonic-clonic seizure, it may look like the person has stopped breathing. This happens when the chest muscles tighten during the tonic phase of a seizure. As this part of a seizure ends, the muscles will relax and breathing will resume normally.
+        \n\n\t\tRescue breathing or CPR is generally not needed during these seizure-induced changes in a person\’s breathing.
+        \n\n10. Do not give water, pills, or food by mouth unless the person is fully alert
+        \n\n\t\tIf a person is not fully awake or aware of what is going on, they might not swallow correctly.  Food, liquid or pills could go into the lungs instead of the stomach if they try to drink or eat at this time.
+        \n\n\t\tIf a person appears to be choking, turn them on their side and call for help. If they are not able to cough and clear their air passages on their own or are having breathing difficulties, call 911 immediately.
+        \n\n11. Call for emergency medical help when:
+        \n\n\t\tA seizure lasts 5 minutes or longer.
+        \n\n\t\tOne seizure occurs right after another without the person regaining consciousness or coming to between seizures.
+        \n\n\t\tSeizures occur closer together than usual for that person.
+        \n\n\t\tBreathing becomes difficult or the person appears to be choking.
+        \n\n\t\tThe seizure occurs in water.
+        \n\n\t\tInjury may have occurred.
+        \n\n\t\tThe person asks for medical help.
+        \n\n12. Be sensitive and supportive, and ask others to do the same
+        \n\n\t\tSeizures can be frightening for the person having one, as well as for others. People may feel embarrassed or confused about what happened. Keep this in mind as the person wakes up.
+        \n\n\t\tReassure the person that they are safe.
+        \n\n\t\tOnce they are alert and able to communicate, tell them what happened in very simple terms.
+        \n\n\t\tOffer to stay with the person until they are ready to go back to normal activity or call someone to stay with them.
+    </string>
+
+    <string name="health_emergency_title_04"> Heart Attack </string>
+    <string name="health_emergency_E_04">
+        1. Call 911 or your local emergency number.
+        \n\n2. Keep the Person calm and have them sit or lie down.
+		\n\n3. Chew and swallow an aspirin, unless you are allergic to aspirin or have been told by your doctor never to take aspirin.
+        \n\n4. Take nitroglycerin, if prescribed.
+        \n\n5. Begin CPR if the person is unconscious.
+        \n\n6. If an automated external defibrillator (AED) is available, use it according to its instructions.
+    </string>
+    <string name="health_emergency_B_04">
+        1. Call 911 or your local emergency number.
+        \n\n\t\tDon\'t ignore or attempt to tough out the symptoms of a heart attack.
+        \n\n\t\tIf you don\'t have access to emergency medical services, have a neighbor or a friend drive you to the nearest hospital.
+        \n\n\t\tDrive yourself only as a last resort, and realize that it places you and others at risk when you drive under these circumstances.
+        \n\n2. Keep the Person calm and have them sit or lie down.
+		\n\n\t\tStaying calm will boost the chances of survivial. It is also important to remember that freaking out won’t be of help to the person having a heart attack and will only cause them more displeasure.
+		\n\n3. Chew and swallow an aspirin, unless you are allergic to aspirin or have been told by your doctor never to take aspirin.
+        \n\n4. Take nitroglycerin, if prescribed.
+        \n\n\t\tIf you think you\'re having a heart attack and your doctor has previously prescribed nitroglycerin for you, take it as directed.
+        \n\n\t\tDon\'t take anyone else\'s nitroglycerin, because that could put you in more danger.
+        \n\n5. Begin CPR if the person is unconscious.
+        \n\n\t\tIf you\'re with a person who is unconscious, tell the 911 dispatcher or another emergency medical specialist. You may be advised to begin cardiopulmonary resuscitation (CPR).
+        \n\n\t\tIf you haven\'t received CPR training, doctors recommend performing only chest compressions (about 100 to 120 compressions a minute). The dispatcher can instruct you in the proper procedures until help arrives.
+        \n\n6. If an automated external defibrillator (AED) is available, use it according to its instructions.
+    </string>
+
+    <string name="health_emergency_title_05"> Stroke </string>
+    <string name="health_emergency_E_05">
+        1. Call 911.
+        \n\n2. Stay with your loved one.
+        \n\n3. Don’t drive yourself or someone having the stroke to the hospital.
+		\n\n4. Take note of the time the stroke took place and its duration.
+        \n\n5. Do not offer the person food or medicine.
+        \n\n6. Stay calm.
+        \n\n7. Keep a positive outlook.
+    </string>
+    <string name="health_emergency_B_05">
+        1. Know all stroke symptoms.
+        \n\n\t\tStrokes can carry a number of sudden, telltale symptoms, Dr. Mullen says. These include: A droop on 1 side of the face, Difficulty lifting 1 arm to its full height, Slurred speech or difficulty with talking, Impaired vision in 1 or both eyes, Vertigo, Difficulty walking
+        \n\n2. Call 911.
+        \n\n\t\t“Don\’t waste time by calling a family member, a friend, or the person\'s doctor," urges Daniel Labovitz, MD, an assistant professor of neurology at the Albert Einstein University College of Medicine/Montefiore Medical Center in New York. It\'s important to get stroke help immediately to increase the chances of a full recovery. "Call 911. It\'s okay if it turns out that the symptoms are not from stroke," he says.
+        \n\n3. Stay with your loved one.
+        \n\n\t\t When offering stroke help, you need to make sure that no additional harm comes to the stroke victim. "Stay with the patient to prevent them from falling or further injuring themselves," says Vibbert.
+        \n\n4. Do Not Let that person go to sleep or talk you out of calling 911
+		\n\n\t\t Stroke survivors often complain of suddenly feeling very sleepy when a stroke first happens.
+		\n\n\t\t “A lot of patients come in and say they went to sleep for a few hours before they came to the hospital because they were tired,” Jean notes.
+		\n\n\t\t But time is of the essence. “The medication we can give a stroke survivor is time sensitive,” she adds. “They should not go to sleep, and they should not call their primary care doctor 2 days from now. Instead, they should just go immediately to the emergency room.”
+		\n\n\t\t And no matter how much someone might try to talk you out of taking them to the hospital, don’t let them, says Jean.
+		\n\n5. Take a few notes.
+        \n\n\t\tMake note of the time when the stroke took place. "This is critically important information later," says Vibbert. If the patient takes any medication, make a list of which ones (including dosage if you know it), and bring it to the hospital, he adds. If possible, bring the actual medications to the hospital with you.
+        \n\n6. Do not drive yourself or someone to the hospital.
+		\n\n\t\t It might seem like a good idea to drive a stroke victim to the nearest emergency room. But Jean says, “If someone is severely affected by a stroke, then you’re better off calling 911.”
+		\n\n\t\t Emergency responders can start life-saving treatment for that person on the way to the emergency room, the Centers for Disease Control and Prevention (CDC) says.
+		\n\n\t\t You also don\’t want to drive yourself to a hospital in the event that your stroke symptoms worsen and impair your ability to drive safely.
+		\n\n7. Do not offer the person food or medicine.
+        \n\n\t\t"Although most strokes are caused by blockage in an artery, some strokes are caused by bleeding from an artery that burst," says Dr. Labovitz. "Giving aspirin to someone with this condition could make it worse."
+        \n\n8. Stay calm.
+        \n\n\t\tAlthough it can be difficult, it\'s important to compose yourself and assure the stroke victim that everything is going to be all right. "Try to concentrate on the situation and remind yourself that you are doing everything you can to help," says Danielle Haskins, MD, medical director of the Stroke Center at Saint Barnabas Medical Center in Livingston, N.J. "Reassure your loved one that you aren\'t going anywhere and that help is on the way."
+        \n\n9. Keep a positive outlook.
+        \n\n\t\t"When they get the help they need, most patients improve enough to return home and function independently, even if they have some permanent symptoms," says Labovitz.
+    </string>
+
+    <!-- END: Health Emergencies -->
+
+    <!-- START: Vehicular Emergencies -->
+    <string name="vehicle_emergency_title_00"> Minor Collision with another vehicle </string>
+    <string name="vehicle_emergency_E_00">
+        1. Assess yourself. Identify any injuries you may have incurred.
+        \n\n2. Assess your passengers (if any) for injuries as well.
+        \n\n3. Contact police.
+        \n\n4. Take pictures of the situation. Be sure to get as many angles as possible. Also take pictures of the other vehicle’s license plate.
+        \n\n5. If possible, move your vehicle to the side of the road where you won’t cause traffic.
+        \n\n6. Do not leave the scene of the accident until everything is resolved.
+        \n\n7. Allow police to take charge of the situation.
+        \n\n8. Do not enter into an altercation with the other driver. See if you can find an amicable settlement.
+        \n\n9. Exchange contact information with the other driver.
+        \n\n10. Contact your insurance agent.
+        \n\n11. File a police report.
+    </string>
+    <string name="vehicle_emergency_B_00">
+        1. Assess yourself and your passengers for any injuries.
+        \n\n\t\tSafety must be your top priority. Even in a minor collision, you must make sure that everyone is safe and uninjured. If necessary, be ready to call for medical assistance or to implement first aid.
+        \n\n2. Contact police.
+        \n\n\t\tCheck if there are any visible police authorities nearby and get their attention. If you don’t see any, call the police hotline. Do not leave the scene of the accident until an official has arrived and given you the go-signal to leave.
+        \n\n3. Take pictures of the situation. Be sure to get as many angles as possible. Also take pictures of the other vehicle’s license plate.
+        \n\n\t\tTake photographs of the scene of the accident. Be sure to get the big picture, then get detailed pictures, especially of the damages to your car. Take pictures of the other car’s details as well. Pictures are important for any legal or insurance claims.
+        \n\n4. If possible, move your vehicle to the side of the road where you won’t cause traffic.
+        \n\n\t\tA collision, especially in the middle of the road, can cause a bottleneck and heavy traffic in the area. Once you have taken all your photos, see if you can move your vehicle to the side of the road where it won’t block other cars passing through. If you are unable to move your car, try to create a barrier so other drivers will know in advance to avoid going in your direction.
+        \n\n5. Do not leave the scene of the accident until everything is resolved.
+        \n\n\t\tEnsure that a police officer arrives at the scene of the accident and officiates. Do not do a "hit-and-run" because you can be legally penalized for doing so.
+        \n\n6. Allow police to take charge of the situation.
+        \n\n\t\tOfficials are trained for these sort of situations. Follow their instructions (simultaneously, be aware of your own rights) and listen for the next steps you have to take.
+        \n\n7. Do not enter into an altercation with the other driver. See if you can find an amicable settlement. Exchange contact information with the other driver.
+        \n\n\t\tNo good will come out of any violence or shouting matches. Have a clear and calm conversation with the other driver. See if you can enter into an agreement when it comes to the repairing of your vehicles and settling any other damages. Be sure to record information about the other vehicle, and get the information of the other driver.
+        \n\n8. Contact your insurance agent.
+        \n\n\t\tContact your insurance agent as soon as possible so that information regarding your accident can be as fresh and accurate as possible.
+        \n\n9. File a police report.
+        \n\n\t\tSome officers may advise you not to take this step especially if you and the other driver can enter into an agreement. File a police report if there are conflicts that are unresolved and/or if your insurance company requires it. A police report is also important if you wish to take legal action.
+    </string>
+
+    <string name="vehicle_emergency_title_01"> Major Collision with another vehicle </string>
+    <string name="vehicle_emergency_E_01">
+        1. Assess yourself. Identify any injuries you may have incurred.
+        \n\n2. Assess your passengers (if any) for injuries as well.
+        \n\n3. Contact ambulance if needed.
+        \n\n4. Contact police.
+        \n\n5. Take pictures of the situation. Be sure to get as many angles as possible. Also take pictures of the other vehicle’s license plate.
+        \n\n6. If possible, move your vehicle to the side of the road where you won’t cause traffic.
+        \n\n7. Do not leave the scene of the accident until everything is resolved.
+        \n\n8. Allow police to take charge of the situation.
+        \n\n9. Do not enter into an altercation with the other driver. See if you can find an amicable settlement.
+        \n\n10. Exchange contact information with the other driver.
+        \n\n11. Contact your personal emergency contacts.
+        \n\n12. Contact your insurance agent.
+        \n\n13. File a police report.
+    </string>
+    <string name="vehicle_emergency_B_01">
+        1. Assess yourself and your passengers for any injuries. Contact an ambulance if needed
+        \n\n\t\tSafety must be your top priority. Make sure that everyone is safe and uninjured. If necessary, be ready to call for medical assistance or to implement first aid.
+        \n\n2. Contact police.
+        \n\n\t\tCheck if there are any visible police authorities nearby and get their attention. If you don’t see any, call the police hotline. Do not leave the scene of the accident until an official has arrived and given you the go-signal to leave.
+        \n\n3. Take pictures of the situation. Be sure to get as many angles as possible. Also take pictures of the other vehicle’s license plate.
+        \n\n\t\tTake photographs of the scene of the accident. Be sure to get the big picture, then get detailed pictures, especially of the damages to your car. Take pictures of the other car’s details as well. Pictures are important for any legal or insurance claims.
+        \n\n4. If possible, move your vehicle to the side of the road where you won’t cause traffi c.
+        \n\n\t\tA collision, especially in the middle of the road, can cause a bottleneck and heavy traffic in the area. Once you have taken all your photos, see if you can move your vehicle to the side of the road where it won’t block other cars passing through. If you are unable to move your car, try to create a barrier so other drivers will know in advance to avoid going in your direction.
+        \n\n5. Do not leave the scene of the accident until everything is resolved.
+        \n\n\t\tEnsure that a police officer arrives at the scene of the accident and officiates. Do not do a "hit-and-run" because you can be legally penalized for doing so.
+        \n\n6. Allow police to take charge of the situation.
+        \n\n\t\tOfficials are trained for these sort of situations. Follow their instructions (simultaneously, be aware of your own rights) and listen for the next steps you have to take.
+        \n\n7. Do not enter into an altercation with the other driver. See if you can find an amicable settlement. Exchange contact information with the other driver.
+        \n\n\t\tNo good will come out of any violence or shouting matches. Have a clear and calm conversation with the other driver. See if you can enter into an agreement when it comes to the repairing of your vehicles and settling any other damages. Be sure to record information about the other vehicle, and get the information of the other driver.
+        \n\n8. Contact your personal emergency contacts.
+        \n\n\t\tYour loved ones would like to hear it from you first if you are involved in a major accident. If you are able to, contact your emergency contacts and inform them of the situation. They may be able to assist you in the next steps.
+        \n\n9. Contact your insurance agent.
+        \n\n\t\tContact your insurance agent as soon as possible so that information regarding your accident can be as fresh and accurate as possible.
+        \n\n10. File a police report.
+        \n\n\t\tSome officers may advise you not to take this step especially if you and the other driver can enter into an agreement. File a police report if there are conflicts that are unresolved and/or if your insurance company requires it. A police report is also important if you wish to take legal action.
+    </string>
+    <!-- END: Vehicular Emergencies -->
+
+</resources>
